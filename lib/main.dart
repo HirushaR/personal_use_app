@@ -18,11 +18,13 @@ class LoginScreen  extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        
       ),
       body: Center(
        
       ),
        bottomNavigationBar: BottomNavigationBar(
+         backgroundColor: Color.fromRGBO(102, 88, 155, 1),
        currentIndex: 0, // this will be set when a new tab is tapped
        items: [
          BottomNavigationBarItem(
@@ -41,5 +43,6 @@ class LoginScreen  extends StatelessWidget {
      ),
       
     );
+    
   }
 }
